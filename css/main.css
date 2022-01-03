@@ -1,0 +1,36 @@
+html {
+	position: static;
+	background-color: gray;
+	height: fit-content;
+	width: fit-content;
+}
+
+
+header {
+	position: sticky;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	float: left;
+}
+header #icon {
+	height: 100%;
+}
+div.entry {
+	position: relative;
+	background-color: #fefe00;
+	height: 50%;
+	width: 5%;
+	left: 2%;
+	top: 25%;
+	text-align: center;
+	float: left;
+}
+div.entry:hover {
+	background-color: green;
+	transition: 0.75s;
+}
+
+div.text {
+	font-size: 150%;
+}

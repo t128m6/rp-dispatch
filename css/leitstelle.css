@@ -1,0 +1,30 @@
+body {
+
+    position: relative;
+    background-color: rgb(25, 0, 255);
+    height: fit-content;
+    width: 100%;
+}
+div.taxi_body {
+
+}
+
+div.taxi_entry {
+    margin: 10px;
+    padding: 1%;
+    border: 2px solid black;
+    height: 150px;
+    width: fit-content;
+    float: left;
+
+}
+div.taxi_name{
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+}
+.taxi_status{
+    position: relative;
+    height: 30%;
+
+}
